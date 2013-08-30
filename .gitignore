@@ -1,6 +1,19 @@
+#Nos interesa solo tener presente el codigo de las clases
+#ignorar binarios (no subir binarios .class)
 *.class
 
-# Package Files #
+#ignorar el contenido y la carpeta nbproject/
+nbproject/
+
+#Ignorar ficheros temporales (generados por el S.O ya sea windows o linux)
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+
+# Ignorar ejecutables (generalmente son el proyecto completo)
 *.jar
 *.war
 *.ear
